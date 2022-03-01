@@ -1,0 +1,286 @@
+body {
+  background: url("background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  display: grid;
+}
+
+/* ----------------------------------------------------- login.html ----------------------------------------------------- */
+
+.div-login {
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  height: 368px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+}
+
+.verticalLines {
+  width: 1px;
+  height: 366px;
+  float: left;
+  margin-top: 1px;
+  margin-left: 20px;
+  border-left: 1px solid green;
+  border-right: 1px solid green;
+}
+
+.elements-login {
+  color: #0069f3;
+  font-size: 22px;
+  padding: 0;
+  width: 348px;
+  height: 365px;
+  border: 2px solid #cecece;
+}
+
+.elements-login div {
+  list-style: none;
+  border-bottom: 1px solid #004fb6;
+  text-indent: 10px;
+  padding: 20px;
+  padding-bottom: 30px;
+  width: 308px;
+  margin-top: 0px;
+  height: 10px;
+}
+
+.header-login {
+  color: green;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#username,
+#useremail {
+  font-size: 15px;
+  border: none;
+  border-color: transparent;
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  box-shadow: 0 0 0px 1000px white inset;
+  border-bottom: 1px solid black;
+}
+
+#useremail {
+  width: 225px;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.div-button {
+  text-align: center;
+}
+
+.button-login {
+  background-color: transparent;
+  border: 2px solid #0069f3;
+  color: #0069f3;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  width: 295px;
+}
+
+.button-login:hover {
+  background-color: #0069f3;
+  color: white;
+}
+
+.button-login:active {
+  background-color: transparent;
+  color: #0069f3;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+table {
+  text-align: center;
+  border-spacing: 0px;
+  border-collapse: separate;
+}
+
+table button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+table button:hover {
+  color: rgb(255, 187, 0);
+}
+
+tr {
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+/* First row in table of main.html */
+#tr1 {
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(0, 173, 40, 0.7);
+}
+
+/* Icon grades in main.html */
+img {
+  height: 50px;
+  width: 50px;
+}
+
+/* Table width in grades.html */
+.table-grades {
+  width: 350px;
+}
+
+/* Card in data.html and create.html */
+.card {
+  width: 350px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Card in data.html and create.html */
+.card-body {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  float: left;
+}
+
+/* card-header in data.html */
+.card-header {
+  color: #f5f5f5;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* First row in table of data.html and header in data.html  */
+.card-header,
+#tr1-data {
+  background-color: rgb(44, 145, 145);
+}
+
+/* Blue button on the pages */
+.btn-primary {
+  border-radius: 0px;
+}
+
+/* Form in grades.html and div in edit.html */
+#formGrades,
+.div-Edit {
+  width: 345px;
+  background-color: rgba(245, 245, 245, 0.788);
+  border: 3px solid rgb(40, 187, 138);
+  border-radius: 10px;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Button in grades.html */
+.button-Grades {
+  width: 134px;
+  border-radius: 20px;
+}
+
+/* h5 in grades.html */
+#grades {
+  background-color: rgb(255, 187, 0);
+  border-bottom: 8px solid black;
+  margin-bottom: 0px;
+  color: whitesmoke;
+  padding: 5px;
+}
+
+/* Div in grades.html */
+.divGrades {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Div in all Pages */
+.container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Div in main.html */
+.divStudents {
+  margin-bottom: 10px;
+}
+
+/* Div in create.html */
+.divNewStudent {
+  width: 450px;
+  border-radius: 20px;
+}
+
+/* Div in data.html */
+.divData {
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Span in Forms.html */
+.input-group-text {
+  width: 95px;
+  color: white;
+  background-color: rgb(255, 187, 0);
+}
+
+/* Span in data.html */
+.span-Data {
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+
+/* h5 in edit.html */
+#grades-edit {
+  background-color: rgb(255, 187, 0);
+  color: whitesmoke;
+  margin-bottom: 0px;
+  padding: 5px;
+  border-bottom: 5px solid black;
+}
+
+/* header in grades.html and edit.html */
+/* class "display-4" in create.html */
+h5,
+.display-4 {
+  text-align: center;
+}
+
+/* Form in grades.html and div in data.html */
+@media (max-width: 991.2px) {
+  #formGrades,
+  .div-Edit {
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
