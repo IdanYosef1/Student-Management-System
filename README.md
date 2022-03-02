@@ -16,6 +16,6 @@ view his grades by clicking on the grades icon, add and update a grade by clicki
 
 * In the Visual Studio code in the Client folder, right-click on the login.html file and select 'Open on live server'.
 
-# Login to the site
+## Login to the site
 
 * Take a username and email from api : https://jsonplaceholder.typicode.com/users.
