@@ -6,7 +6,7 @@ view his grades by clicking on the grades icon, add and update a grade by clicki
 
 ## Technologies
 
-*	Frontend: HTML, CSS, Javascript.
+*	Frontend: HTML, CSS, Bootstrap v5.0, Javascript.
 *	BackEnd: Nodejs, Express, Mongoose, cors.
 *	Database: MongoDB.
 
