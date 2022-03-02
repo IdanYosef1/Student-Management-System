@@ -1,4 +1,4 @@
-# Students-Management-System
+# Student-Management-System
 
 Student management site. Allows you to create, update and delete student details.
 In addition, the site allows you to view the student's details by clicking on the student's name,
