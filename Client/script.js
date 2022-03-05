@@ -1,10 +1,10 @@
-const urlStudents = "http://localhost:8000/api/students";
+const urlStudents = "https://student-management-idan.herokuapp.com/api/students";
 const urlUsers = "https://jsonplaceholder.typicode.com/users";
 
 /* The function saves in session storage the false value that corresponds to the islogged key and 
    redirects the user to the login page. */
 function logout(){
-    window.location.href = 'login.html';
+    window.location.href = 'index.html';
 }
 
 /* Clicking on button "Login" in Login page activates the function.
