@@ -8,7 +8,7 @@ view his grades by clicking on the grades icon, add and update a grade by clicki
 
 ## Live demo
 
-https://student-management-idan.herokuapp.com/
+https://student-management-idan.netlify.app/
 
 ## Technologies
 
